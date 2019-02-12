@@ -88,7 +88,7 @@
 }
 
 body { 
-	background: {{ site.colors.background }}; 
+	background: #{{ site.colors.background }}; 
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
@@ -129,7 +129,7 @@ ol {
 }
 
 a { 
-    color:{{ site.colors.link }};
+    color: {{ site.colors.link }};
     padding: 0;
 	margin: 0;
 	text-decoration: none; 
@@ -142,18 +142,18 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:{{ site.colors.link_hover }};
+  color: {{ site.colors.link_hover }};
 }
 
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background: {{ site.colors.secondary }};
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background: {{ site.colors.secondary }};
 }
 
 .centered {
