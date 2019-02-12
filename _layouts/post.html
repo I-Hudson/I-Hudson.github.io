@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+            {% if page.img %}
+                <p><img class="img-responsive" src="{{ "/assets/img/updates/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            {% endif %}
+            
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+              
+            {{ content }}
+
+            <div class="spacing"></div>
+            
+            <p><i>If there is/was anything you spotted which is wrong or have any questions about, please don’t hesitate to contact me. I would be grateful.</i></p>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+            </p> -->
+        </div><! --/col-lg-8 -->
+        
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
+
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>

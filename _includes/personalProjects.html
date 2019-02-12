@@ -1,0 +1,69 @@
+<div id="personalProjects">
+{% if site.personalProjects > 0 %}
+    <div class="container">
+    <div id="portfoliowrap">
+        <div class="portfolio-centered">
+            {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        </div>
+    </div>
+    {% assign loopindex = 0 %}
+    {% for project in site.personalProjects limit:include.limit %}
+        {% assign loopindex = loopindex | plus: 1 %}
+        {% assign rowfinder = loopindex | modulo: 3 %}
+        {% if rowfinder == 1 %}
+            <div class="row top-buffer">
+                <div class="center col-sm-6 col-md-6 col-lg-4">
+                    <a href="{{ project.url | prepend: site.baseurl }}">
+                        <div class="textContainerOverlay">
+                            <img class="card-img-top" src="{{ "/assets/img/personalProjects/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+                            <div class="textBackground">
+                                <div class="text-center">
+                                    <h3>{{ project.title }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <br>
+                    <p>{{ project.summary }}</p>
+                </div>
+        {% elsif rowfinder == 0 %}
+                <div class="center col-sm-6 col-md-6 col-lg-4">
+                    <a href="{{ project.url | prepend: site.baseurl }}">
+                        <div class="textContainerOverlay">
+                            <img class="card-img-top" src="{{ "/assets/img/personalProjects/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+                            <div class="textBackground">
+                                <div class="text-center">
+                                    <h3>{{ project.title }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <br>
+                    <p>{{ project.summary }}</p>
+                </div>
+            </div>
+        {% else %}
+            <div class="center col-sm-6 col-md-6 col-lg-4">
+                <a href="{{ project.url | prepend: site.baseurl }}">
+                    <div class="textContainerOverlay">
+                        <img class="card-img-top" src="{{ "/assets/img/personalProjects/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+                        <div class="textBackground">
+                            <div class="text-center">
+                                <h3>{{ project.title }}</h3>
+                            </div>
+                        </div>
+                        </div>
+                </a>
+                <br>
+                <p>{{ project.summary }}</p>
+            </div>
+        {% endif %}
+        {% endfor %}
+        {% if rowfinder != 0 %}
+            </div>
+        {% endif %}
+        <div class="bottom-buffer"></div>
+    {% endif %}
+    </div>
+</div>
+</div>

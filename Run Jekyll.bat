@@ -1,0 +1,1 @@
+start cmd.exe /k "cd E:\Users\Documents\SourceControl\Github\myblog && bundle exec jekyll serve"

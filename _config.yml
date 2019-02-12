@@ -1,0 +1,98 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Ian Hudson
+description: "My name is Ian Hudson and I am a Computer Games Programming student at the University of Gloucestershire."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://ianmhudson.com/"
+
+homeImage: 
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Hi, my name is Ian Hudson and I am a Computer Games Programming student at the University of Gloucestershire currently in my last year. Here you can see projects that I have worked on be it professional or personal. I have passion for leaning new skills and gaining knowledge. I love to see what could be created and have has been in the video games industry and hope to be able to contribute in creating or expanding an universe which people love. <br><br> I would love to chat about job opportunities, projects that I've worked on, anything gaming related even my interest for sport (Skiing and Badminton)."
+
+aboutFooter: 
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#4B64C7" #"#F70031" #00b3fe
+  primary_rgb: "247,0,4" #"247,0,49" #0,179,254 #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#8B92D0" #"#33004D" #384452
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#FFFFFF"
+  footer_content: "#bfc9d3"
+  background: "#252447"
+  text_color: "#FFFFFF"
+
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
+  personalProjects:
+    output: true
+    permalink: /personalProjects/:title/
+    
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: github
+    url: https://github.com/I-Hudson
+  - title: twitter
+    url:
+
+# Contact email and phone number
+email: ianmhudson@gmail.com
+mobile: Mobile on request
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Mark Webber
+    position: CEO
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+
+# Testimonial content. Shown on Home and About page.
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO

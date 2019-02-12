@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+
+        {% include carousel.html %}
+
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="spacing"></div>
+            <h4>Project Details</h4>
+            <div class="hline"></div>
+            <div class="col-lg-4">
+                <p><b>Platform:</b></p>
+                {% for platform in page.Platform %}
+                <p style="text-indent: 40px">-{{platform}}</p>
+                {% endfor %}
+            </div>
+            <div class="col-lg-4 col-lg-push-1">
+                <p><b> Engine/Language:</b></p>
+                <p style="text-indent: 40px">-{{ page.EngineLanguage }}</p>
+            </div>
+            <div class="col-lg-4 col-lg-push-2">
+                <p><b> Project:</b></p>
+                {% for project in page.Project %}
+                <p style="text-indent: 40px">-{{ project }}</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="spacing"></div>
+
+            {{ content }}
+
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+<!--{% include portfolio.html title="Related Works." limit=5 %}-->
