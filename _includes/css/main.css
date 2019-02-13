@@ -107,8 +107,8 @@ p {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
-	line-height: 24px;
+	font-size: {{ site.font_size }}; 
+	line-height: 28px;
 	color: {{ site.colors.text_color }}; 
 	margin-top: 10px; 
 }
@@ -285,8 +285,8 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
+    padding-bottom: 50px;
 	padding-top: 100px;
-	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -318,10 +318,19 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
 	text-align: center
+}
+
+.titleBoarder{
+    padding-top: 1px;    
+    padding-bottom: 1px;
+    background-color: #5B769B;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
 }
 
 #portfoliowrap h3 {

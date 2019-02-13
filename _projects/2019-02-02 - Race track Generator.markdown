@@ -4,7 +4,7 @@ title:  "Race Track Generator"
 date:   2019-02-02 
 author: Ian Hudson
 
-summary: Race Track Generatpr.
+summary: Race Track Generator tool created in the Unity Game Engine.
 
 categories:
 - project, 

@@ -15,7 +15,9 @@
         <ul class="nav navbar-nav">
             <!--<li {% if page.title =="Home" %}class="active" {% endif %}><a href="#home">HOME</a></li>-->
             <li {% if page.title =="Portfolio" %}class="active" {% endif %}><a href="#portfolio">PORTFOLIO</a></li>
-            <li {% if page.title =="Portfolio" %}class="active" {% endif %}><a href="#personalProjects">PERSONAL PROJECTS</a></li>
+            {% if site.personalProjects.count > 1 %}
+                <li {% if page.title =="Portfolio" %}class="active" {% endif %}><a href="#personalProjects">PERSONAL PROJECTS</a></li>
+            {% endif %}
             <li {% if page.title =="About" %}class="active" {% endif %}><a href="#about">ABOUT</a></li>
             <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/updates/" | prepend: site.baseurl }}">UPDATES</a></li>
             <li {% if page.title =="CV" %}class="active" {% endif %}><a href="{{"/assets/files/Ian_Hudson_CV.pdf" | prepend: site.baseurl }}">CV</a></li>
