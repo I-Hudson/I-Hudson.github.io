@@ -502,7 +502,7 @@ a:focus {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.update_text_title }};
 	font-weight: 700;
 	margin-bottom: 15px;
 }
