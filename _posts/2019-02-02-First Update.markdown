@@ -8,7 +8,7 @@ img:
 thumb:
 ---
 
-# Welcome
+## Welcome
 Hello there. My name is Ian Hudson and I am of the time of writing this a final year University student at the University of Gloucestershire in the UK. This is the first of hopefully many updates which I will create and post. These updates hope to show to you the read (and me) the progress that I have made in my last semester at university.
 
 A new blog will be released either every week or every two weeks. This should be a good time frame to show off what I have been doing.
@@ -40,7 +40,7 @@ By randomly rotating all the tiles the path is then hidden and must be found ![a
 After the player has rotated the tiles to make a path from start to end, they press the hack button and if they have correctly done the puzzle then the StartPuzzle function which is called when the hack button is pressed will return true or false depending on if the path is right or not.
 Now that the mini game has been explained and how it works time for some actual code.
 
-### Code
+## Code
 The first code snippet is from the Tile class. The code below is a function which is used when a tile has been clicked.  
 
 <pre class="brush: csharp"> 

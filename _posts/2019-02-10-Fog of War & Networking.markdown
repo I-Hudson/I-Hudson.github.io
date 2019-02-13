@@ -8,7 +8,7 @@ img:
 thumb:
 ---
 
-# Welcome
+## Welcome
 Welcome to the second update to be posted. This week I spent my time looking into fog of war implementation within Unity and networking.
 
 <!--more-->
