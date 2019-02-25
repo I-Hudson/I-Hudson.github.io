@@ -32,7 +32,6 @@ colors:  #in hex code if not noted else
   background: "#222222"
   text_color: "#FFFFFF"
   update_text_title: "#FFFFFF"
-
 font_size: 16px
 
 # Making projects separate from posts

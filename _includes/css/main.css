@@ -108,6 +108,10 @@ h1, h2, h3, h4, h5, h6 {
     color: {{ site.colors.text_color }};
 }
 
+i{
+    color: {{ site.colors.update_text_title }};
+}
+
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
