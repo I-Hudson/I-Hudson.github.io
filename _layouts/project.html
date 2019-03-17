@@ -13,6 +13,13 @@ layout: default
                     <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ img }}" alt="">
                 </div>
             {% endfor %}
+            
+            {% for vid in page.TitleVideo.first %}
+                <div class="item active">
+                    <iframe width="960" height="540" src="{{ vid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            {% endfor %}
+
         </div>
 
         <div class="col-lg-8 col-lg-offset-2">
@@ -34,7 +41,16 @@ layout: default
                 {% for project in page.Project %}
                 <p style="text-indent: 40px">-{{ project }}</p>
                 {% endfor %}
+                
             </div>
+            
+            <center>
+                 {% for link in page.GithubLink.first %}
+                    <a href="{{ link }}" target="_blank" class="btn-social btn-outline">
+                        <img src="/assets/img/GitHub_Logo_White.png" width="20%" height="20%">
+                    </a>
+                {% endfor %}
+            </center>
         </div>
 
         <div class="col-lg-8 col-lg-offset-2">
@@ -48,4 +64,5 @@ layout: default
 <script type="text/javascript">
      SyntaxHighlighter.all()
 </script>
+
 <!--{% include portfolio.html title="Related Works." limit=5 %}-->

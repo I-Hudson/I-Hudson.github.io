@@ -16,7 +16,8 @@ Project:
 - Developing mobile game
 thumb: Perception/Thump_img.png
 TitleImgs:
-- Perception/Title_img.png
+TitleVideo:
+- https://www.youtube.com/embed/LKAm8dyQWWA
 tagged: C#, Unity, Development
 ---
 
@@ -29,8 +30,10 @@ This is the core concept of the game as it needs the player to not think in one 
 
 ## Challenges
 One of the challenges that I encountered was how to create each level. There were a few ways I could have gone with this. The first and most obvious being to create all the wall elements at compile time. This is great for prototyping as I could quickly build new levels. However, there was two reasons I didn’t like the idea of hand placing all the object within the scene. The first being the large number of objects which would be present within the hierarchy and the second being scalability. I wanted an easy way to add new levels without needing to change anything within the editor hierarchy or gameplay systems in fear of introducing new bugs. 
-The solution which I went with was to have .json files act as levels. Each .json file would contain all the data need for each level, then when a level was selected from the main menu that level .json file would be selected then parsed into a LevelData class which could be used by the LevelManager to generate the level selected.
+The solution which I went with was to have .json files act as levels. Each .json file would contain all the data need for each level, then when a level was selected from the main menu that level's .json file would be selected then parsed into a LevelData class which could be used by the LevelManager to generate the level selected.
 
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#jsonFile">Level .json file</button>
+<div id="jsonFile" class="collapse">
 <pre class="brush: jscript">
 {   
   //The title for this level. (Normally a hint for the level)
@@ -69,7 +72,10 @@ The solution which I went with was to have .json files act as levels. Each .json
   ]
 }
 </pre>
+</div>
 
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#levelData">Level Data class</button>
+<div id="levelData" class="collapse">
 Level 1 .json file
 
 <pre class="brush: c-sharp">
@@ -89,17 +95,24 @@ public class LevelData
 </pre>
 
 With this setup I can quickly create new levels by adding a new .json file to the levels folder. This also would allow other developers who might not understand the systems in place within the game to add new levels which is important for larger teams. 
+</div>
 
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameStyle">Game Style</button>
+<div id="gameStyle" class="collapse">
+<h2>Style</h2>
 
-## Style
 The style I wanted for Perception was minimalistic. This was because puzzle games to me shouldn’t have anything that takes away from the puzzles on screen. I didn’t want players attention wondering from the main mechanic; the puzzle. Originally the wall tiles were going to be 2D images however after some playtesting and reflection having the tiles be 3D adds depth and to me makes the game feel more complete.
 
 Another style consideration was the colours. I again wanted colours that didn’t distract the player but were easy to look at and gave a calm atmosphere. 
 <center><img src="/assets/img/project/Perception/style_1.png" alt="" width="100%" height="100%"/></center><br>
+</div>
 
-
-## Future / Improvements
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
+<div id="improvments" class="collapse">
+<h2>Future / Improvements</h2>
 
 Looking back on this project I can see some improvements which could be made. Two main ones being, having the blocks be affected by external inputs like physics and having and not having to build the .APK when a new level is added.
 
 In the coming weeks/months I will continue to develop Perception.
+</div>
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i/>
