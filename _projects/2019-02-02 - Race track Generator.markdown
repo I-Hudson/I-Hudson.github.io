@@ -8,18 +8,26 @@ summary: Race Track Generator tool created in the Unity Game Engine.
 
 categories:
 - project, 
+
 Platform:
 - Unity Game Engine
+
 EngineLanguage: Unity (C#)
+
 Project:
 - Individual project,
 - Unity Tool
+
 GithubLink:
 - https://github.com/I-Hudson/Race-Track-Generator
+
 thumb: RaceTrackGenerator/Thump_img.png
+
 TitleImgs:
+
 TitleVideo:
 - https://www.youtube.com/embed/MJiOExZTgGI
+
 tagged: C#, Unity, Development
 ---
 

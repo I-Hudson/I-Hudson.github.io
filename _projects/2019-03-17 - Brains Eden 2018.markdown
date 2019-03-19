@@ -7,13 +7,21 @@ author: Ian Hudson
 summary: Noot Nuke was a games created at the Brains Eden Games Jam in 2018.
 
 categories:
-- project, 
+- project,
+
 Platform:
 - PC
+
 EngineLanguage: Unreal Engine 4
+
 Project:
 - Games Jam
+
 thumb: BrainsEden2018/nootnuke.PNG
+
+GithubLink:
+- https://github.com/I-Hudson/Noot-Nuke-Brains-Eden-2018
+
 TitleImgs:
 - BrainsEden2018/nootnuke.PNG
 TitleVideo:
