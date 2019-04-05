@@ -21,6 +21,17 @@
 		padding: 0px;
 	} 
 
+.collapse 
+{
+  color: white;
+  display: none;
+}
+.collapse.in 
+{
+  color: white;
+  display: block;
+}
+
 .card-img-top {
     width: 100%;
     height: 346px;

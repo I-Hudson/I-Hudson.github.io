@@ -45,7 +45,6 @@ There were a few noticeable challenges that occurred when creating this tool. On
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#howitworks">How it works</button>
 <div id="howitworks" class="collapse">
-    
 <h2>How it works?</h2>
 To generate the race track there are three main steps which take place. The first is a Voronoi diagram is generated. A Voronoi diagram is a diagram which has been partitioned into cellar regions where all the points within each region are closers to its defining point than any other point [1]. 
 <center><img src="/assets/img/project/RaceTrackGenerator/VoronoiDiagram_generate.png"/> <br> <i>Voronoi Diagram</i> </center>
