@@ -12,7 +12,7 @@ homeImage:
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Hi, my name is Ian Hudson and I am a Computer Games Programming student at the University of Gloucestershire currently in my last year. Here you can see projects that I have worked on. If you would like to see my personal projects, please head over to my GitHub (Link at the bottom of the page). I have passion for leaning new skills and gaining knowledge. I love to see what could be created and have has been in the video games industry and hope to be able to contribute in creating or expanding an universe which people love. <br><br> I would love to chat about job opportunities, projects that I've worked on, anything gaming related even my interest for sport (Skiing and Badminton)."
 
-aboutFooter: 
+aboutFooter: "Final year Computer Games Programming student at the University of Gloucestershire."
 
 
 # Build settings
