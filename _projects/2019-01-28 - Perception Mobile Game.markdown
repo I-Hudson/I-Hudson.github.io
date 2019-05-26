@@ -112,7 +112,5 @@ Another style consideration was the colours. I again wanted colours that didn’
 <h2>Future / Improvements</h2>
 
 Looking back on this project I can see some improvements which could be made. Two main ones being, having the blocks be affected by external inputs like physics and having and not having to build the .APK when a new level is added.
-
-In the coming weeks/months I will continue to develop Perception.
 </div>
 <i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i/>
