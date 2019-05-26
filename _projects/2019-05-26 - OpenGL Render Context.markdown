@@ -4,7 +4,7 @@ title:  "C++/OpenGL Render Context"
 date:   2019-05-26 
 author: Ian Hudson
 
-summary: OpenGL rendering context made in C++.
+summary: OpenGL game engine made in C++.
 
 categories:
 - project,
