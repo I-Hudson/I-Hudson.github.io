@@ -23,12 +23,12 @@
 
 .collapse 
 {
-  color: white;
+  color: black;
   display: none;
 }
 .collapse.in 
 {
-  color: white;
+  color: black ;
   display: block;
 }
 
