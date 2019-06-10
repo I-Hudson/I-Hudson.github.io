@@ -52,6 +52,9 @@ This project has really allowed me to apply what I have learnt at university and
 ## Challenges
 This project produced many challenges. The biggest challenge was the lack of knowledge I had with OpengGL. This is due to this project being the first one where I was tasked with interacting with OpenGL directly. This meant I had a step learning curve with this project. To over come this challenge I used reference materiel from the lectures to help grasp an understanding of OpenGL and used online resources to further my understanding.
 
+### Pre-made Scene Image
+<a href="https://i-hudson.github.io/assets/img/project/c++-opengl/title.PNG" target="_blank"><img src="/assets/img/project/c++-opengl/title.PNG"></a>
+
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
 <div id="improvments" class="collapse">
 <h2>Future / Improvements</h2>
