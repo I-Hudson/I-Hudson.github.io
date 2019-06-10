@@ -47,6 +47,7 @@ InSIght includes a demo scene. The scene includes:
 
 If you would like to have a go with the demo scene click the GitHub logo and download the latest release (InSight.zip), extract the bin folder and then run InSight.exe.
 
+This project has really allowed me to apply what I have learnt at university and has become a project which I am proud of. I hope to continue to develop this project is too a small engine which I could use to create my own game from scratch.
 
 ## Challenges
 This project produced many challenges. The biggest challenge was the lack of knowledge I had with OpengGL. This is due to this project being the first one where I was tasked with interacting with OpenGL directly. This meant I had a step learning curve with this project. To over come this challenge I used reference materiel from the lectures to help grasp an understanding of OpenGL and used online resources to further my understanding.
@@ -59,4 +60,4 @@ This project has taught me much about how graphics are rendered and has given me
 </p>
 </div>
 
-<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i/>
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me. This is an area in which I would like to learn more in.<i/>
