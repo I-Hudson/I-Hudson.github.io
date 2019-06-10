@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Noot Nuke - Brains Eden 2018"
-date:   2019-03-15 
+date:   2019-01-04
 author: Ian Hudson
 
 summary: Noot Nuke was a games created at the Brains Eden Games Jam in 2018.

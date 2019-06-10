@@ -1,0 +1,48 @@
+---
+layout: project
+title:  "Binary"
+date:   2019-01-02 
+author: Ian Hudson
+
+summary: Binary. A 2 v 1  Spies vs Merc where you must best your enemy.
+
+categories:
+- project, 
+Platform:
+- PC
+EngineLanguage: Unity (C#)
+Project:
+- Group project,
+
+thumb: Binary/Thump_img.png
+TitleImgs:
+- Binary/Thump_img.png
+TitleVideo:
+tagged: C#, Unity, Development
+---
+
+# About Binary
+Binary is a spies vs merc game where two spies must gather data from 2 of the 3 capture points. Once the data has been retrieved the spies must also exit the building. The merc however must stop the spies from stealing the data using lethal force.
+
+My main role for this project was network programmer. For this project Unity’s LLAPI was used to create the networking. I also contributed to gameplay programming and UI programming as well.
+Other than programming I offered lots of ideas in which direction the project could go and helped other team members understand a networked game. Overall, I am very pleased and proud of what has been created.
+
+
+## Challenges
+The main challenge for me on this project was networking. This is because I had never done any form of networking before. When in development many issues arose with networking such as players movement not syncing, abilities not appearing and capture point status out of sync. These issue where fixed. An example is with the capture points being server authoritative meaning that the server has the last say in what state the capture point is in.
+Messages where also used to fix theses issues by telling each client what everyone else is doing.
+
+### Team
+- [Ashley Cheema: Project Manager, Programmer](ashleycheema.github.io)
+- [Jamie Laurence: Web Developer, UI](http://www.jamielaurence.co.uk)
+- [Lysander Foster: 3D](https://lysanderfoster.com)
+- [Jess Barrett: Character Artist](https://jessbarrett96.wixsite.com/website)
+- [James Barrett: Animator](https://jamesgbarrett.portfoliobox.net)
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
+<div id="improvments" class="collapse">
+<h2>Future / Improvements</h2>
+
+With the knowledge that I have now of Unity’s networking I feel I could write a more robust system. There has been talks within my team with maybe continuing development and polishing the game up.
+</div>
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i/>

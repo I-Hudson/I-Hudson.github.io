@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Perception Mobile Game"
-date:   2019-01-28 
+date:   2019-01-06 
 author: Ian Hudson
 
 summary: Perception. An addictive puzzle mobile game which requires you to change how you look at things.

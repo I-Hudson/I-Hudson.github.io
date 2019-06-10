@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "C++/OpenGL Render Context"
-date:   2019-05-26 
+title:  "InSight Engine"
+date:   2019-01-01 
 author: Ian Hudson
 
 summary: OpenGL game engine made in C++.
@@ -30,18 +30,24 @@ tagged: C++, OpenGL, Graphics
 ---
 
 # About 
-The task for this project was to create a 3d scene which had to be rendered in real time using OpenGL and C++. 
-The scene was required to include the following:
+InSight Engine is a lite game engine which has been made from an assignment submission that I will continue to develop. InSIght includes an ECS (Entity component system) which can be found in Unity and Unreal and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
+InSight does also include one notable feature. This being the usage of light volumes.
+
+Currently only OpenGL is supported in InSight. However, efforts have and are being made to allow for easy implementation of other rendering APIs like Direct3D. 
+
+
+InSIght includes a demo scene. The scene includes:
 - A directional light with adjustable colour values
 - A Point light with adjustable colour values and range/radius
 - A Spotlight with adjustable colour values and adjustable inner and outer radius and range
-- Shadow mapping
-- Vertex shader animation
-- Tessellation
+- Shadow mapping from the directional light
+- Vertex shader animation on the water
+- Tessellation on the tank and ground models
+
 
 
 ## Challenges
-This project produced many challenges. The biggest challenge was the lack of knowledge I have with OpengGL. This is due to this project being the first one where I was tasked with interactive with OpenGL directly. This meant I haf a step learning curve with this project. To over come this challenge I used reference materiel from the lectures to help grasp an understanding of OpenGL and used online resources to further my understanding.
+This project produced many challenges. The biggest challenge was the lack of knowledge I had with OpengGL. This is due to this project being the first one where I was tasked with interacting with OpenGL directly. This meant I had a step learning curve with this project. To over come this challenge I used reference materiel from the lectures to help grasp an understanding of OpenGL and used online resources to further my understanding.
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
 <div id="improvments" class="collapse">
