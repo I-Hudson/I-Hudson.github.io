@@ -43,6 +43,7 @@ InSIght includes a demo scene. The scene includes:
 - Shadow mapping from the directional light
 - Vertex shader animation on the water
 - Tessellation on the tank and ground models
+- Attempt at screen space reflections
 
 
 
