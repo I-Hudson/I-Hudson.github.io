@@ -45,6 +45,7 @@ InSIght includes a demo scene. The scene includes:
 - Tessellation on the tank and ground models
 - Attempt at screen space reflections
 
+If you would like to have a go with the demo scene click the GitHub logo and download the latest release (InSight.zip), extract the bin folder and then run InSight.exe.
 
 
 ## Challenges
