@@ -33,11 +33,11 @@ The main challenge for me on this project was networking. This is because I had 
 Messages where also used to fix theses issues by telling each client what everyone else is doing.
 
 ### Team
-- [Ashley Cheema: Project Manager, Programmer](ashleycheema.github.io)
-- [Jamie Laurence: Web Developer, UI](http://www.jamielaurence.co.uk)
-- [Lysander Foster: 3D](https://lysanderfoster.com)
-- [Jess Barrett: Character Artist](https://jessbarrett96.wixsite.com/website)
-- [James Barrett: Animator](https://jamesgbarrett.portfoliobox.net)
+- [Ashley Cheema: Project Manager, Programmer](https://ashleycheema.github.io){:target="_blank"}
+- [Jamie Laurence: Web Developer, UI](http://www.jamielaurence.co.uk){:target="_blank"}
+- [Lysander Foster: 3D](https://lysanderfoster.com){:target="_blank"}
+- [Jess Barrett: Character Artist](https://jessbarrett96.wixsite.com/website){:target="_blank"}
+- [James Barrett: Animator](https://jamesgbarrett.portfoliobox.net){:target="_blank"}
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
 <div id="improvments" class="collapse">

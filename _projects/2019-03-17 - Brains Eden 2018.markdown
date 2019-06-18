@@ -36,10 +36,10 @@ Noot nuke was a project which I made with a team of 2 programmers and 3 designer
 When participating in this project many problems arose. Most of the problems where related to the small time frame in which we had to complete the project. One problem which was encounter was when a tile was destroyed there was no way to repair it. This became apparent after testing the game and having people trapped. To fix this we added a repair feature where the player could repair the closest tile to them. Another problem was how to deliver the bombs to the two players. As we couldn’t spawn the bombs anywhere in fear of them not landing on one of the two platforms. The solution was to create two spawn actors which would spawn independently for each platform. This not only fixed the issue of not knowing if the object would land on a platform but would also allow each player to always get a bomb at the same time.
 
 ### Team
-- [Josh Kane: Project Manager, Programmer](https://www.linkedin.com/in/josh-kane-370179114/?originalSubdomain=uk)
-- [Shihab Miah: 3D Models (Characters)](http://www.shihab.me.uk)
-- [Sam Madden: 3D Models (environment)](https://samuelmadden.carbonmade.com)
-- [Ashley Cheema: Programmer](https://ashleycheema.github.io)
+- [Josh Kane: Project Manager, Programmer](https://www.linkedin.com/in/josh-kane-370179114/?originalSubdomain=uk){:target="_blank"}
+- [Shihab Miah: 3D Models (Characters)](http://www.shihab.me.uk){:target="_blank"}
+- [Sam Madden: 3D Models (environment)](https://samuelmadden.carbonmade.com){:target="_blank"}
+- [Ashley Cheema: Programmer](https://ashleycheema.github.io){:target="_blank"}
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bombblueprint">Bomb Spawn Blueprint</button>
 <div id="bombblueprint" class="collapse">
