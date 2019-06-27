@@ -26,7 +26,7 @@ TitleImgs:
 - trashndash/Title.png
 TitleVideo:
 - 
-tagged: Games Jam
+tagged:
 ---
 
 # About Trash n' Dash
