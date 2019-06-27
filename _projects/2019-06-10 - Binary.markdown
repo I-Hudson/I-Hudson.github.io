@@ -16,8 +16,9 @@ Project:
 
 thumb: Binary/Thump_img.png
 TitleImgs:
-- Binary/Thump_img.png
+-
 TitleVideo:
+- https://www.youtube.com/embed/g4E2_HKSv_8
 tagged: C#, Unity, Development
 ---
 
