@@ -53,6 +53,10 @@ collections:
 social:
   - title: github
     url: https://github.com/I-Hudson
+  - title: twitter
+    url: https://twitter.com/IanHudsonDev
+  - title: linkedin
+    url: https://www.linkedin.com/in/ian-hudson/
 
 # Contact email and phone number
 email: ianm.hud@gmail.com
