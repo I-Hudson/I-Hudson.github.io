@@ -6,6 +6,11 @@ author: Ian Hudson
 
 summary: OpenGL game engine made in C++.
 
+Tags:
+- C++
+- OpenGL
+- Unversity
+
 categories:
 - project,
 
@@ -24,9 +29,12 @@ GithubLink:
 
 TitleImgs:
 - 
+
 TitleVideo:
 - https://youtube.com/embed/mpf4T3wIzJ4
+
 tagged: C++, OpenGL, Graphics
+
 ---
 
 # About 

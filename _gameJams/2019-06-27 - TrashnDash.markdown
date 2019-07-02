@@ -6,11 +6,6 @@ author: Ian Hudson
 
 summary: Trash 'n Dash is a 4 player coop party games made at the University of Gloucestershire 2019 games jam.
 
-Tags:
-- C#
-- Unity
-- Games Jam
-
 categories:
 - project,
 
@@ -31,13 +26,7 @@ TitleImgs:
 - trashndash/Title.png
 TitleVideo:
 - 
-
-
-
-type: gameJam
-
 tagged:
-
 ---
 
 # About Trash n' Dash

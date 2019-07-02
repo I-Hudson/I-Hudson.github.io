@@ -45,7 +45,7 @@
 
 .top-buffer
 {
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .paddingItem
@@ -305,10 +305,10 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: white;
 	min-height: 0px;
     padding-bottom: 50px;
-	padding-top: 100px;
+	padding-top: 50px;
 	text-align: center;
 }
 

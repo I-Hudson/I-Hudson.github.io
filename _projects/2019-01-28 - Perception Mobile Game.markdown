@@ -6,6 +6,12 @@ author: Ian Hudson
 
 summary: Perception. An addictive puzzle mobile game which requires you to change how you look at things.
 
+Tags:
+- C#
+- Unity
+- GameDev
+- Unversity
+
 categories:
 - project, 
 Platform:
@@ -19,6 +25,9 @@ TitleImgs:
 TitleVideo:
 - https://www.youtube.com/embed/LKAm8dyQWWA
 tagged: C#, Unity, Development
+
+
+
 ---
 
 # About Perception

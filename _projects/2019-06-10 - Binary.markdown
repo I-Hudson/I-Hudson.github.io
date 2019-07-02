@@ -6,6 +6,12 @@ author: Ian Hudson
 
 summary: Binary. A 2 vs 1.  Spies vs Merc where you must best your enemy.
 
+Tags:
+- C#
+- Unity
+- GameDev
+- Unversity
+
 categories:
 - project, 
 Platform:

@@ -46,7 +46,9 @@ collections:
     output: true
     permalink: /personalProjects/:title/
     
-
+Tags:
+ C++: "#00b3fe"
+ 
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -60,5 +62,4 @@ social:
 
 # Contact email and phone number
 email: ianm.hud@gmail.com
-mobile: Mobile on request
     

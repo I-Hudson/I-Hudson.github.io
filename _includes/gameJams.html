@@ -7,11 +7,11 @@
     </div>
     {% assign loopindex = 0 %}
     {% for project in site.projects limit:include.limit %}
-        {% if project.type != "gameJam" %}
-            {% assign loopindex = loopindex | plus: 1 %}
-            {% assign rowfinder = loopindex | modulo: 3 %}
-            {% if rowfinder == 1 %}
-                <div class="row top-buffer">
+    {% if project.type == "gameJam" %}
+        {% assign loopindex = loopindex | plus: 1 %}
+        {% assign rowfinder = loopindex | modulo: 3 %}
+        {% if rowfinder == 1 %}
+<div class="row top-buffer">
                     <div class="center col-sm-6 col-md-6 col-lg-4">
                         <a href="{{ project.url | prepend: site.baseurl }}">
                             <div class="textContainerOverlay text-center">
@@ -81,10 +81,12 @@
                         </div>
                         <p>{{ project.summary }}</p>
                     </div>
-            {% endif %}
+        {% endif %}        
         {% endif %}
         {% endfor %}
         {% if rowfinder != 0 %}
             </div>
         {% endif %}
     </div>
+</div>
+</div>

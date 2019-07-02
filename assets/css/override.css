@@ -1,0 +1,72 @@
+/*	################################################################
+
+	Author: Ian Hudosn 
+	
+################################################################# */ 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+@import url("/assets/css/prettyPhoto.css") screen;
+@import url("/assets/css/hoverex-all.css") screen;
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+	* { 
+		margin: 0;
+		padding: 0px;
+	} 
+
+.Title 
+{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #303030;
+}
+
+.imgBoarder
+{
+    height: 350px;
+    border: 1.8px solid;
+    border-color: black;
+    border-radius: 12px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+#white {
+	background: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#white h1 {
+	color: black;
+	margin-left: 15px;
+    text-align: center;
+}
+
+.itemTag {
+    height: 21px;
+    min-width: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    float: left;
+    background-color: #813772;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.work-item-tags-container {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}

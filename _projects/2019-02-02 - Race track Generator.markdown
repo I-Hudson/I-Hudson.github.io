@@ -6,6 +6,12 @@ author: Ian Hudson
 
 summary: Race Track Generator tool created in the Unity Game Engine.
 
+Tags:
+- C#
+- Unity
+- Tool
+- Unversity
+
 categories:
 - project, 
 
@@ -22,6 +28,8 @@ GithubLink:
 - https://github.com/I-Hudson/Race-Track-Generator
 
 thumb: RaceTrackGenerator/Thump_img.png
+
+
 
 TitleImgs:
 
