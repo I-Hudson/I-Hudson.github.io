@@ -1,0 +1,53 @@
+---
+layout: project
+title:  "Traffic Jam - Brains Eden 2019"
+date:   2019-01-01
+author: Ian Hudson
+
+summary: Traffic Jam is a 4 player game made at Brains Eden 2019.
+
+Tags:
+- C#
+- Unity
+- Games Jam
+
+categories:
+- project,
+
+Platform:
+- PC
+
+EngineLanguage: Unity/C#
+
+Project:
+- Games Jam
+
+thumb: brainseden2019/title.jpg
+
+GithubLink:
+- https://github.com/I-Hudson/Brains-Eden-2019
+
+TitleImgs:
+- brainseden2019/title.jpg
+TitleVideo:
+- 
+
+type: gameJam
+
+tagged: Unreal Engine 4, Games Jam
+
+---
+
+# About Taffic Jam
+Compete against your fellow traffic chiefs to move as many as your own coloured vehicles though your section onto your coloured bridge in the time limit. Sabotage each other to manipulate their traffic and cause pile ups. Highest score wins. For this game jam I worked on the car spawning and AI, score system and dressing the level with 3D assets.
+
+## Challenges
+One major challenge was the car movement. This was a challenge as the cars had to travel in the same directions without crashing into each other. A couple of solutions were thought of. The solution which was implemented was to raycast ahead of the car and check if another car was within a certain distance. It there was a car within a certain distance then the car behind has its speed set to the car’s ahead. This allows for cars to have different speeds and not crash into each other.
+
+### Team
+- [James Gratrix : Programmer](http://jamesgratrix.strikingly.com){:target="_blank"}
+- [Ibrahim Nouri : Designer](http://ibrahimnouri.tk){:target="_blank"}
+- [Jack  Tilling : Designer](https://www.jacktilling.co.uk){:target="_blank"}
+- Patrycja Wypustek : Designer
+
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i/>
