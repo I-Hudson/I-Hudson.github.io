@@ -45,7 +45,7 @@ The skills I have learnt from doing this project include:
 - Improved C++ knowledge, 
 - Shaders (Vertex, Geometry and Fragment),  
 - SIMD (Single Instruction Multiple Data), 
-- Experimenting with Multithreading,
+- Experimenting Multithreading,
 - Optimisation.
 
 ## Challenges
