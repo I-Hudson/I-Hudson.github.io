@@ -6,7 +6,7 @@
         </div>
     </div>
     {% assign loopindex = 0 %}
-    {% for project in site.projects limit:include.limit %}
+    {% for project in site.projects %}
         {% if project.type != "gameJam" %}
             {% assign loopindex = loopindex | plus: 1 %}
             {% assign rowfinder = loopindex | modulo: 3 %}

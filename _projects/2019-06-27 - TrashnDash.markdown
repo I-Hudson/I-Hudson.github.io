@@ -32,8 +32,6 @@ TitleImgs:
 TitleVideo:
 - 
 
-
-
 type: gameJam
 
 tagged:
