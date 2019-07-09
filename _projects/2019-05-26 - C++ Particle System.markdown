@@ -9,7 +9,7 @@ summary: Particle system made in C++.
 Tags:
 - C++
 - OpenGL
-- Unversity
+- University
 
 categories:
 - project,

@@ -10,7 +10,7 @@ Tags:
 - C#
 - Unity
 - GameDev
-- Unversity
+- University
 
 categories:
 - project, 

@@ -10,7 +10,7 @@ Tags:
 - C#
 - Unity
 - Tool
-- Unversity
+- University
 
 categories:
 - project, 
