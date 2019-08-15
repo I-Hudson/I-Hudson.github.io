@@ -4,7 +4,7 @@ title:  "Binary"
 date:   2019-01-02 
 author: Ian Hudson
 
-summary: Binary. A 2 vs 1.  Spies vs Merc where you must best your enemy.
+summary: Binary. A 2 vs 1.  Spies vs Merc where you must beat your enemy.
 
 Tags:
 - C#
