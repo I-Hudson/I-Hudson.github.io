@@ -48,7 +48,7 @@ Currently there is one project which uses this framework.
 ## Challenges
 
 ### Model View Example
-<a href="https://i-hudson.github.io/assets/img/project/c++-opengl/title.PNG" target="_blank"><img src="/assets/img/project/Engine-Framework/demoModel.PNG"></a>
+<a href="https://i-hudson.github.io/assets/img/project/Engine-Framework/demoModel.PNG" target="_blank"><img src="/assets/img/project/Engine-Framework/demoModel.PNG"></a>
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>
 <div id="improvments" class="collapse">
