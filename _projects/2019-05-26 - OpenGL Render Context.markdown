@@ -38,10 +38,10 @@ tagged: C++, OpenGL, Graphics
 ---
 
 # About 
-InSight Engine is a lite game engine which has been made from an assignment submission that I will continue to develop. InSIght includes an ECS (Entity component system) which can be found in Unity and Unreal and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
+InSight Engine is a lite game engine which has been made from an assignment submission. InSIght includes an ECS (Entity component system) which can be found in Unity and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
 InSight does also include one notable feature. This being the usage of light volumes.
 
-Currently only OpenGL is fully supported in InSight with Vulkan being setup and rendering a triangle. Direct3D is planned to be implemented in the near future.
+Currently only OpenGL is fully supported in InSight with Vulkan being setup and rendering a triangle.
 
 InSIght includes a demo scene. The scene includes:
 - A directional light with adjustable colour values
@@ -54,7 +54,7 @@ InSIght includes a demo scene. The scene includes:
 
 If you would like to have a go with the demo scene click the GitHub logo and download the latest release (InSight.zip), extract the bin folder and then run InSight.exe.
 
-This project has really allowed me to apply what I have learnt at university and has become a project which I am proud of. I hope to continue to develop this project is too a small engine which I could use to create my own game from scratch.
+This project has really allowed me to apply what I have learnt at university and has become a project which I am proud of.
 
 ## Additional Features
 From continuing this project, I have been able to add more features like adding/removing entities, adding/removing components, saving to a file and I am currently rewriting the renderer to become rendering API agnostic.
