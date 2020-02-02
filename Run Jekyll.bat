@@ -1,1 +1,2 @@
-start cmd.exe /k "cd F:\Users\Documents\SourceControl\Github\I-Hudson.github.io && bundle exec jekyll serve"
+start /D "%~dp0" cmd /k "bundle exec jekyll serve"
+
