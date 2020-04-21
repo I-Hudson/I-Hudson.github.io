@@ -4,7 +4,7 @@ title:  "Auto Video Editor"
 date:   2020-04-20 
 author: Ian Hudson
 
-summary: Automated video editor
+summary: Automated video editor.
 
 Tags:
 - C++
