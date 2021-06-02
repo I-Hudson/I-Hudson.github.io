@@ -6,6 +6,8 @@ author: Ian Hudson
 
 summary: OpenGL game engine made in C++.
 
+order: 1
+
 Tags:
 - C++
 - OpenGL

@@ -1,0 +1,116 @@
+---
+layout: project
+title:  "C++ Reflect"
+date:   2021-06-02 
+author: Ian Hudson
+
+summary: Reflect tool inspired from UE4 header tool.
+
+order: 0
+
+Tags:
+- C++
+- Tool
+
+categories:
+- project,
+
+Platform:
+- PC
+
+type: portfolio
+
+EngineLanguage: C++
+
+Project:
+- Individual project
+
+thumb: reflect/thump.png
+
+GithubLink:
+- https://github.com/I-Hudson/Reflect
+
+TitleImgs: 
+- reflect/thump.png
+
+TitleVideo:
+
+tagged: C++
+
+---
+
+# About 
+This is a small personal project which I worked on over around a month. I was inspired by UE4 and it's header tool. I've always been interested in the concept of code generation and thought I would have a go at it.
+
+Reflect is a small library which is used to auto generate code for C++ to be used like reflection. Currently only functions and member variables can be reflected.
+
+## Challenges
+There were two main challenges I had when creating this library. The first being how to structure the whole library so that it was useful and could be used in other projects effectively. And the second was having a custom file parser. 
+
+The structure of the library mainly came do to how do you interact with it on an external project. The solution which I decided on using was having an abstract class which you inherit from then you can reflect on it or on any derived class.
+<pre class=brush: c++>
+class Shape : REFLECT_BASE()
+{ ... };
+
+REFLECT_CLASS()
+class Box : public Shape
+{ ... };
+</pre>
+
+The file parser was another big challenge. When making it I wanted to be able to have multiple reflect classes/structs in a single header file, have member variable store there type, functions have a return value and allow custom "tags" to filter the reflect properties. [Here is a link to the file parser cpp file.](https://github.com/I-Hudson/Reflect/blob/master/Reflect/src/FileParser/FileParser.cpp)
+
+Example of how the library could be used.
+<pre class="brush: c++">
+REFLECT_CLASS()
+class Player : REFLECT_BASE()
+{
+	REFLECT_GENERATED_BODY()
+
+public:
+	Player()
+		: Id("PlayerExampleId")
+		, Friends(0)
+		, TimeOnline(0)
+	{ }
+
+	~Player()
+	{ }
+
+	REFLECT_PROPERTY(Public)
+		int GetOnlineFriendsCount(int const& maxPlayerCount);
+
+	REFLECT_PROPERTY()
+		void PrintHelloWorld();
+
+private:
+	REFLECT_PROPERTY()
+		std::string GetId() const;
+
+private:
+	std::string Id;
+
+	REFLECT_PROPERTY(EditorOnly, Public)
+		int Friends;
+	REFLECT_PROPERTY(Public)
+		int TimeOnline;
+};
+
+int main()
+{
+	// Get a function with an int return value and has a single
+	// parameter.
+	Player player;
+	Reflect::ReflectFunction parameterFunc = player.GetFunction("GetOnlineFriendsCount");
+	// Setup the parameter to send to the function. This is order
+	// sensitive.
+	Reflect::FunctionPtrArgs args;
+	int intParameter = 8;
+	args.AddArg(&intParameter);
+	int returnCount;
+	std::cout << Reflect::ReflectReturnCodeToString(parameterFunc.Invoke(&returnCount, args));
+	return 0;
+}
+</pre>
+
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me.<i/>
+

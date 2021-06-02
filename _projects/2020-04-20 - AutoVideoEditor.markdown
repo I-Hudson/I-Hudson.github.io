@@ -4,6 +4,8 @@ title:  "Auto Video Editor"
 date:   2020-04-20 
 author: Ian Hudson
 
+
+order: 6
 summary: Automated video editor.
 
 Tags:

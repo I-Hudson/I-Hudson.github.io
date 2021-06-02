@@ -6,6 +6,8 @@ author: Ian Hudson
 
 summary: Game Engine framework/Model Viewer
 
+order: 4
+
 Tags:
 - C++
 - OpenGL
