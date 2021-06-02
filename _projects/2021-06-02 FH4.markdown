@@ -46,8 +46,8 @@ Some of the tasks that I was involved with were setting up rich presence for the
 ## Dinput
 Adding Dinput into the game for wheel support was the biggest area I worked on. I enjoyed the challenge this gave me as well as the experience I was able to gain from it. This task allowed me to see into new areas of code which I had not seen before along with being able to see how internal systems such as input systems are implemented for multiple platforms.
 
-There were some challenges from this task. The main one being I had never touched DInput before. With this challenge I went around it by not only referencing the documentation but also downloading and setting some of the sample projects which are included with DX9.
+There were some challenges from this task. The main one being I had never touched DInput before. With this challenge I went around it by not only referencing the documentation but also downloading and setting up some of the sample projects which are included with DX9.
 
-Another challenge which came with this task was working in a large codebase. Previously I have only every worked in Unity projects which from my experience are a lot smaller. This meant when adding DInput in I had to move from file to file often.
+Another challenge which came with this task was working in a large codebase. Previously I have only every worked in Unity projects which from my experience are a lot smaller and more manageable. This meant when adding DInput in I had to move from file to file often.
 
 <i>If you have any question or suggests about this project or any other project please do not hesitate to contract me.<i/>
