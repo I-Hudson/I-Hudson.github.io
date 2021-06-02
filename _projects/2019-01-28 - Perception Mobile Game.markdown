@@ -11,6 +11,8 @@ Tags:
 - Unity
 - GameDev
 
+type: portfolio
+
 categories:
 - project, 
 Platform:

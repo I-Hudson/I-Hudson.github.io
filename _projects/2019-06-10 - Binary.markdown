@@ -12,6 +12,8 @@ Tags:
 - GameDev
 - University
 
+type: portfolio
+
 categories:
 - project, 
 Platform:

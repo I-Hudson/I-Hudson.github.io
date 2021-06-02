@@ -17,6 +17,8 @@ categories:
 Platform:
 - PC
 
+type: portfolio
+
 EngineLanguage: C++
 
 Project:

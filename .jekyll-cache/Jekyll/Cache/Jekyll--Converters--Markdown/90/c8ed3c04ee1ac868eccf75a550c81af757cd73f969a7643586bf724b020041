@@ -1,0 +1,41 @@
+I"–<h1 id="about">About</h1>
+<p>InSight Engine is a lite game engine which has been made from an assignment submission. InSIght includes an ECS (Entity component system) which can be found in Unity and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
+InSight does also include one notable feature. This being the usage of light volumes.</p>
+
+<p>Currently only OpenGL is fully supported in InSight with Vulkan being setup and rendering a triangle.</p>
+
+<p>InSIght includes a demo scene. The scene includes:</p>
+<ul>
+  <li>A directional light with adjustable colour values</li>
+  <li>A Point light with adjustable colour values and range/radius</li>
+  <li>A Spotlight with adjustable colour values and adjustable inner and outer radius and range</li>
+  <li>Shadow mapping from the directional light</li>
+  <li>Vertex shader animation on the water</li>
+  <li>Tessellation on the tank and ground models</li>
+  <li>Attempt at screen space reflections</li>
+</ul>
+
+<p>If you would like to have a go with the demo scene click the GitHub logo and download the latest release (InSight.zip), extract the bin folder and then run InSight.exe.</p>
+
+<p>This project has really allowed me to apply what I have learnt at university and has become a project which I am proud of.</p>
+
+<h2 id="additional-features">Additional Features</h2>
+<p>From continuing this project, I have been able to add more features like adding/removing entities, adding/removing components, saving to a file and I am currently rewriting the renderer to become rendering API agnostic.</p>
+
+<h2 id="challenges">Challenges</h2>
+<p>This project produced many challenges. The biggest challenge was the small amount of knowledge I had with OpengGL. This is due to this being one of the few projects where I interfaced with OpenGL directly. This meant I had a step learning curve with this project. To over come this challenge I used reference materiel from the lectures to help grasp an understanding of OpenGL and used online resources to further my understanding.</p>
+
+<h3 id="pre-made-scene-image">Pre-made Scene Image</h3>
+<p><a href="https://i-hudson.github.io/assets/img/project/c++-opengl/title.PNG" target="_blank"><img src="/assets/img/project/c++-opengl/title.PNG" /></a></p>
+
+<p><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button></p>
+<div id="improvments" class="collapse">
+<h2>Future / Improvements</h2>
+<p>
+This project has taught me much about how graphics are rendered and has given me a great appreciation for render engines. I hope to continue to work on this project in my free time and add more features like audio and materials.
+</p>
+</div>
+
+<p><i>If you have any question or suggests about this project or any other project please do not hesitate to contract me. This is an area in which I would like to learn more in.<i></i></i></p>
+
+:ET

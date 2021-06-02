@@ -18,6 +18,8 @@ categories:
 Platform:
 - Unity Game Engine
 
+type: portfolio
+
 EngineLanguage: Unity (C#)
 
 Project:

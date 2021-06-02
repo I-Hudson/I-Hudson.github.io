@@ -1,0 +1,21 @@
+I"U<h1 id="about-trash-n-dash">About Trash n’ Dash</h1>
+<p>Trash ‘n Dash was a games jam game made within 30 hours. The theme for the games jam was Waves. With this theme my team decided to create something in relation to water. The games has 4 players all of which start at the corners of the screen. The objective is to collect trash from the water and deposit at your barge while also stealing from other players. The player with the most point when the time ends wins. This game went on to be displayed at the university’s end of year convention known as COMX.</p>
+
+<h2 id="challenges">Challenges</h2>
+<p>For this game my main roles were creating the scoring system, creating the UI and adding in
+gameplay features. One challenge which I encountered was on how to create a push back mechanic when attacking another player. When you are close to another player you are able to hit them, which makes them drop trash and pushes them backwards. My initial plan was to use ray castes to detect if another player was close enough. However, I ended up using trigger boxes which are turned on and off. This solution allowed for not only detection straight ahead of a player but also to the side.</p>
+
+<h3 id="team">Team</h3>
+<ul>
+  <li><a href="http://kieranbond.co.uk" target="_blank">Kieran Bond: Gameplay Programmer</a></li>
+  <li><a href="https://ashleycheema.github.io" target="_blank">Ashley Cheema: Programmer</a></li>
+  <li><a href="https://lysanderfoster.com" target="_blank">Lysander Foster: 3D Artist</a></li>
+  <li><a href="https://www.artstation.com/jake_ivany" target="_blank">Jake Ivany: 3D Artist</a></li>
+  <li><a href="https://www.artstation.com/nickwiltshire" target="_blank">Nick Wiltshire: 3D Artist/Technical</a></li>
+</ul>
+
+<p>Download the build <a href="https://github.com/KieranBond/TrashAndDash-GJ-19/releases/tag/v1.0" target="_blank">here</a>. You’ll have to un-zip the download, and then run the ‘TrashNDash.exe’ file.
+The game requires controllers to play.</p>
+
+<p><i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i></i></i></p>
+:ET

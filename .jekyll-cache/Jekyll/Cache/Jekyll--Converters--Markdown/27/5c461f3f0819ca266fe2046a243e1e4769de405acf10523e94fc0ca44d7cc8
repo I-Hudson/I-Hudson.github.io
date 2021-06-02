@@ -1,0 +1,22 @@
+I"ô<h1 id="about-noot-nuke">About Noot Nuke</h1>
+<p>Noot nuke was a project which I made with a team of 2 programmers and 3 designers, as a part of the Brans Eden 2018 Games Jam. The theme was unreliable. For our game we made a 1v1 dual game where random bombs would fall from the sky and you had to throw them onto the other player platform so when the bombs went off, they destroyed the tile under them. I worked on bomb spawning, bomb throwing, repair tile system and UI.</p>
+
+<h2 id="challenges">Challenges</h2>
+<p>When participating in this project many problems arose. Most of the problems where related to the small-time frame in which we had to complete the project. One problem which was encounter was when a tile was destroyed there was no way to repair it. This became apparent after testing the game and having people trapped. To fix this I added a repair feature where the player could repair the closest tile to them. Another problem was how to deliver the bombs to the two players. As the bombs couldnâ€™t be spawned anywhere in fear of them not landing on one of the two platforms. The solution was to create two spawn actors which would spawn independently for each platform. This not only fixed the issue of not knowing if the object would land on a platform but would also allow each player to always get a bomb at the same time.</p>
+
+<h3 id="team">Team</h3>
+<ul>
+  <li><a href="https://www.linkedin.com/in/josh-kane-370179114/?originalSubdomain=uk" target="_blank">Josh Kane: Project Manager, Programmer</a></li>
+  <li><a href="http://www.shihab.me.uk" target="_blank">Shihab Miah: 3D Models (Characters)</a></li>
+  <li><a href="https://samuelmadden.carbonmade.com" target="_blank">Sam Madden: 3D Models (environment)</a></li>
+  <li><a href="https://ashleycheema.github.io" target="_blank">Ashley Cheema: Programmer</a></li>
+</ul>
+
+<p><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bombblueprint">Bomb Spawn Blueprint</button></p>
+<div id="bombblueprint" class="collapse">
+<img src="/assets/img/project/BrainsEden2018/bombSpawnBP.PNG" />
+<center><i>Blueprint for the spawning of bombs</i></center>
+</div>
+
+<p><i>If you have any question or suggests about this project or any other project please do not hesitate to contract me<i></i></i></p>
+:ET

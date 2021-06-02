@@ -1,0 +1,90 @@
+<div id="professional">
+<div class="container">
+    <div id="portfoliowrap">
+        <div class="portfolio-centered">
+            {% if include.title %}<h1 class="Title">{{ include.title }}</h1>{% endif %}
+        </div>
+    </div>
+    {% assign loopindex = 0 %}
+    {% for project in site.projects %}
+        {% if project.type == "professional" %}
+            {% assign loopindex = loopindex | plus: 1 %}
+            {% assign rowfinder = loopindex | modulo: 3 %}
+            {% if rowfinder == 1 %}
+                <div class="row top-buffer">
+                    <div class="center col-sm-6 col-md-6 col-lg-4">
+                        <a href="{{ project.url | prepend: site.baseurl }}">
+                            <div class="textContainerOverlay text-center">
+                                <div class="imgBoarder">
+                                    <img class="card-img-top" src="{{ "/assets/img/professional/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
+                                    <div class="textBackground">
+                                        <div class="text-center">
+                                            <h3>{{ project.title }}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-item-tags-container">
+                            {% for tag in project.Tags %}
+                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
+                                    <span>{{tag}}</span>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <p>{{ project.summary }}</p>
+                    </div>
+            {% elsif rowfinder == 0 %}
+                    <div class="center col-sm-6 col-md-6 col-lg-4">
+                        <a href="{{ project.url | prepend: site.baseurl }}">
+                            <div class="textContainerOverlay text-center">
+                                <div class="imgBoarder">
+                                    <img class="card-img-top" src="{{ "/assets/img/professional/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
+                                    <div class="textBackground">
+                                        <div class="text-center">
+                                            <h3>{{ project.title }}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-item-tags-container">
+                            {% for tag in project.Tags %}
+                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
+                                    <span>{{tag}}</span>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <p>{{ project.summary }}</p>
+                    </div>
+                </div>
+            {% else %}
+                    <div class="center col-sm-6 col-md-6 col-lg-4">
+                        <a href="{{ project.url | prepend: site.baseurl }}">
+                            <div class="textContainerOverlay text-center">
+                                <div class="imgBoarder">
+                                    <img class="card-img-top" src="{{ "/assets/img/professional/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
+                                    <div class="textBackground">
+                                        <div class="text-center">
+                                            <h3>{{ project.title }}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-item-tags-container">
+                            {% for tag in project.Tags %}
+                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
+                                    <span>{{tag}}</span>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <p>{{ project.summary }}</p>
+                    </div>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% if rowfinder != 0 %}
+            </div>
+        {% endif %}
+    </div>
