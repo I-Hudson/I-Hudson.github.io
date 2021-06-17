@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "InSight Engine"
+title:  "University Graphics"
 date:   2019-01-01 
 author: Ian Hudson
 
@@ -42,12 +42,12 @@ tagged: C++, OpenGL, Graphics
 ---
 
 # About 
-InSight Engine is a lite game engine which has been made from an assignment submission. InSIght includes an ECS (Entity component system) which can be found in Unity and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
-InSight does also include one notable feature. This being the usage of light volumes.
+This project is a lite game engine which has been made from an assignment submission. This, includes an ECS (Entity component system) which can be found in Unity and makes use of multiple libraries such as Dear ImGui, a fast and self-contained UI library, and Assimp, a powerful model loading library.
+There is also include one notable feature. This being the usage of light volumes.
 
-Currently only OpenGL is fully supported in InSight with Vulkan being setup and rendering a triangle.
+Currently only OpenGL is fully supported with Vulkan being setup and rendering a triangle.
 
-InSIght includes a demo scene. The scene includes:
+Included a demo scene. The scene includes:
 - A directional light with adjustable colour values
 - A Point light with adjustable colour values and range/radius
 - A Spotlight with adjustable colour values and adjustable inner and outer radius and range
@@ -55,8 +55,6 @@ InSIght includes a demo scene. The scene includes:
 - Vertex shader animation on the water
 - Tessellation on the tank and ground models
 - Attempt at screen space reflections
-
-If you would like to have a go with the demo scene click the GitHub logo and download the latest release (InSight.zip), extract the bin folder and then run InSight.exe.
 
 This project has really allowed me to apply what I have learnt at university and has become a project which I am proud of.
 

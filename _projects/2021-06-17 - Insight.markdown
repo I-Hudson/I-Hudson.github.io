@@ -1,0 +1,86 @@
+---
+layout: project
+title:  "Insight"
+date:   2021-06-17 
+author: Ian Hudson
+
+summary: Vulkan render framework.
+
+order: 4
+
+Tags:
+- C++
+- Vulkan
+- Personal
+
+categories:
+- project,
+
+Platform:
+- PC
+
+type: portfolio
+
+EngineLanguage: C++
+
+Project:
+- Individual project
+
+thumb: insight/titile.png
+
+GithubLink:
+
+TitleImgs:
+- insight/titile.png
+
+TitleVideo:
+
+tagged: C++, Vulkan, Graphics
+
+---
+
+# About 
+Insight is a small project which I am using for educational purposes. It is where I am trying to use Vulkan to create a selection of features which would be seen in games. 
+
+## Additional Features
+Some additional features which have been implemented are:
+- Render Graph,
+- ECS (Entity Component System),
+- Skeletal Animations
+- (Beginning of) Asset System
+- Reflection using personal Reflect porject
+- [Job system using personal project][1]
+
+[1]: https://github.com/I-Hudson/JobSystem
+
+## Challenges
+The main challenge I have faced is the scale of this project. Understanding what systems can talk to other systems and the best way to pass data between them. On example of this would be for rendering. Originally the render graph would get all the mesh components from the scene then iterate over them to obtain their meshes and draw. I wanted a method which had a clearer distinction between CPU and GPU. So, I added a RenderList struct which stores all the relevant information required to draw an object. Doing this also allowed me a nice way of looking a frustum culling.
+
+Another challenge was working with Vulkan. I have had a small amount of experience with OpenGL. Vulkan on the other hand had a large learning curve and requires more management. Descriptor sets have always been an issue. To help with this I have a small dynamic DescriptorSet allocator which is used within the Render Graph. This allows me to cache sets that have previous been used while not having to manage them directly.
+
+### RenderList Struct
+Below is the RenderList struct which is used. It stores draw calls for objects which have a view such as cameras and lights.
+
+<pre class="brush: c++">
+struct RenderList
+{
+	RenderListViewCamera MainCamera;
+	std::vector&lt;RenderListViewCamera> ExtraCameras;
+
+	RenderListViewLight DirectionalLight;
+
+	void Clear()
+	{
+		MainCamera.Clear();
+		ExtraCameras.clear();
+		DirectionalLight.Clear();
+	}
+
+	static RenderList* GetFromPool();
+	static void ReturnToPool(RenderList* renderList);
+	static void ClearCache();
+};
+</pre>
+
+<i>If you have any question or suggests about this project or any other project, please do not hesitate to contract me. This is an area in which I would like to learn more in.</i>
+
