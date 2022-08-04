@@ -1,0 +1,45 @@
+---
+layout: project
+title:  "Fable"
+date:   2022-08-04 
+author: Ian Hudson
+
+summary: Fable
+
+Tags:
+- C++
+- AAA
+
+categories:
+- project, 
+
+Platform:
+- PC
+
+type: professional
+
+EngineLanguage: Proprietary (C++)
+
+Project:
+- Professional,
+
+GithubLink:
+
+thumb: 
+- fable/fable.jpg
+
+TitleImgs: 
+- fable/fable.jpg
+
+TitleVideo:
+
+tagged: C++, Professional
+---
+
+# About 
+I worked on the system team on Fable.
+
+## What I did
+Some of the responsibility I had while on the system team included maintaining the runtime, tools, and pipeline.
+
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me.<i/>

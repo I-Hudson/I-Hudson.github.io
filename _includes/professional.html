@@ -6,7 +6,8 @@
         </div>
     </div>
     {% assign loopindex = 0 %}
-    {% for project in site.projects %}
+    {% assign projects = site.projects | sort: 'last_updated' | reverse %}
+    {% for project in projects %}
         {% if project.type == "professional" %}
             {% assign loopindex = loopindex | plus: 1 %}
             {% assign rowfinder = loopindex | modulo: 3 %}
