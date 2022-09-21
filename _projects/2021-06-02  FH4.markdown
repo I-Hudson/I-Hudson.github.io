@@ -26,10 +26,10 @@ Project:
 GithubLink:
 
 thumb: 
-- FH4/FH4_steam.jpg
+- FH4/FH4_steam.avif
 
 TitleImgs: 
-- FH4/FH4_steam.jpg
+- FH4/FH4_steam.avif
 
 TitleVideo:
 

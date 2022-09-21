@@ -26,7 +26,7 @@ EngineLanguage: C++
 Project:
 - Individual project
 
-thumb: c++-opengl/title.PNG
+thumb: c++-opengl/title.avif
 
 GithubLink:
 - https://github.com/I-Hudson/Insight-Engine

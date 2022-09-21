@@ -31,7 +31,7 @@ Project:
 GithubLink:
 - https://github.com/I-Hudson/Race-Track-Generator
 
-thumb: RaceTrackGenerator/Thump_img.png
+thumb: RaceTrackGenerator/Thump_img.avif
 
 
 
@@ -59,25 +59,25 @@ There were a few noticeable challenges that occurred when creating this tool. On
 <div id="howitworks" class="collapse">
 <h2>How it works?</h2>
 To generate the race track there are three main steps which take place. The first is a Voronoi diagram is generated. A Voronoi diagram is a diagram which has been partitioned into cellar regions where all the points within each region are closers to its defining point than any other point [1]. 
-<center><img src="/assets/img/project/RaceTrackGenerator/VoronoiDiagram_generate.png"/> <br> <i>Voronoi Diagram</i> </center>
+<center><img src="/assets/img/project/RaceTrackGenerator/VoronoiDiagram_generate.avif"/> <br> <i>Voronoi Diagram</i> </center>
 
 The second is to create a spline which will be the track. To do this the tool selects a random cell from the Voronoi diagram, then selects one of its edges. From the edge selected the neighbouring cell which shares the selected edge is selected. This process continues until a certain number of cells are chosen. After all the cells are chosen the tool gets the outer edge of all the cells. This gives us the spline to build the track from.
 
 <br>
 
-<img src="/assets/img/project/RaceTrackGenerator/spline_generate_raw.png"  width="50%" height="50%"/><img src="/assets/img/project/RaceTrackGenerator/spline_generate_smooth_1.png" width="50%" height="50%"/>
+<img src="/assets/img/project/RaceTrackGenerator/spline_generate_raw.avif"  width="50%" height="50%"/><img src="/assets/img/project/RaceTrackGenerator/spline_generate_smooth_1.avif" width="50%" height="50%"/>
 <center><i>Spline Generated. Left: No Smoothing Applied. Right: Smoothing Applied</i></center>
 
 <br>
 
 The final step is to generate the actual mesh for the race track. This is done by taking the spline and adding vertices either side of the spline.
-<center><img src="/assets/img/project/RaceTrackGenerator/vertices.png"  width="100%" height="100%"/><i>Blue Line: This is a line which is perpendicular to the spline. Red Dots: The red dots are the vertices which have been made.</i></center>
+<center><img src="/assets/img/project/RaceTrackGenerator/vertices.avif"  width="100%" height="100%"/><i>Blue Line: This is a line which is perpendicular to the spline. Red Dots: The red dots are the vertices which have been made.</i></center>
 
 <br>
 
 Each vertex which is defined is also given its own UV coordinate. This allows the mesh to have a texture applied to it.
 After all the vertices have been defined then the tool makes the triangles. The way the triangles are made are shown below.
-<center><img src="/assets/img/project/RaceTrackGenerator/triangles.png"/></center>
+<center><img src="/assets/img/project/RaceTrackGenerator/triangles.avif"/></center>
 
 The curbs are made in a similar fashion.
 </div>

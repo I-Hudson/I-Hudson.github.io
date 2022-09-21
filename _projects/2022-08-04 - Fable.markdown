@@ -26,10 +26,10 @@ Project:
 GithubLink:
 
 thumb: 
-- fable/fable.jpg
+- fable/fable.avif
 
 TitleImgs: 
-- fable/fable.jpg
+- fable/fable.avif
 
 TitleVideo:
 

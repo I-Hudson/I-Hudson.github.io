@@ -26,12 +26,12 @@ EngineLanguage: C++
 Project:
 - Individual project
 
-thumb: insight/titile.png
+thumb: insight/titile.avif
 
 GithubLink:
 
 TitleImgs:
-- insight/titile.png
+- insight/titile.avif
 
 TitleVideo:
 

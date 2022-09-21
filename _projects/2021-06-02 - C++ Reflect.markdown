@@ -25,13 +25,13 @@ EngineLanguage: C++
 Project:
 - Individual project
 
-thumb: reflect/thump.png
+thumb: reflect/thump.avif
 
 GithubLink:
 - https://github.com/I-Hudson/Reflect
 
 TitleImgs: 
-- reflect/thump.png
+- reflect/thump.avif
 
 TitleVideo:
 
