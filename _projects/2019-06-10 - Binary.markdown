@@ -27,7 +27,7 @@ Project:
 GithubLink:
 - https://github.com/AshleyCheema/Binary
 
-thumb: Binary/Thump_img.png
+thumb: Binary/Thump_img.avif
 TitleImgs:
 -
 TitleVideo:

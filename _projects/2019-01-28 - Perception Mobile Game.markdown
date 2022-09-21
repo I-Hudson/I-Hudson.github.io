@@ -23,7 +23,7 @@ EngineLanguage: Unity (C#)
 Project:
 - Individual project,
 - Developing mobile game
-thumb: Perception/Thump_img.png
+thumb: Perception/Thump_img.avif
 TitleImgs:
 TitleVideo:
 - https://www.youtube.com/embed/LKAm8dyQWWA
@@ -116,7 +116,7 @@ With this setup I can quickly create new levels by adding a new .json file to th
 The style I wanted for Perception was minimalistic. This was because puzzle games to me shouldn’t have anything that takes away from the puzzles on screen. I didn’t want players attention wondering from the main mechanic; the puzzle. Originally the wall tiles were going to be 2D images however after some playtesting and reflection having the tiles be 3D adds depth and to me makes the game feel more complete.
 
 Another style consideration was the colours. I again wanted colours that didn’t distract the player but were easy to look at and gave a calm atmosphere. 
-<center><img src="/assets/img/project/Perception/style_1.png" alt="" width="100%" height="100%"/></center><br>
+<center><img src="/assets/img/project/Perception/style_1.avif" alt="" width="100%" height="100%"/></center><br>
 </div>
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#improvments">Future / Improvements</button>

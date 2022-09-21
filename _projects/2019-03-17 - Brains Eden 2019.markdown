@@ -22,13 +22,13 @@ EngineLanguage: Unity/C#
 Project:
 - Games Jam
 
-thumb: brainseden2019/title.jpg
+thumb: brainseden2019/title.avif
 
 GithubLink:
 - https://github.com/I-Hudson/Brains-Eden-2019
 
 TitleImgs:
-- brainseden2019/title.jpg
+- brainseden2019/title.avif
 TitleVideo:
 - 
 

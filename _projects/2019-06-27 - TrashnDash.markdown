@@ -22,13 +22,13 @@ EngineLanguage: Unity/C#
 Project:
 - Games Jam
 
-thumb: trashndash/Title.png
+thumb: trashndash/Title.avif
 
 GithubLink:
 - https://github.com/KieranBond/TrashAndDash-GJ-19
 
 TitleImgs:
-- trashndash/Title.png
+- trashndash/Title.avif
 TitleVideo:
 - 
 

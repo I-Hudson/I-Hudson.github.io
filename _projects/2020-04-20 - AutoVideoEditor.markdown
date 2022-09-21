@@ -27,7 +27,7 @@ Project:
 - Individual project
 - Personal
 
-thumb: autoVideoEditor/thumbnail.PNG
+thumb: autoVideoEditor/thumbnail.avif
 
 GithubLink:
 - https://github.com/I-Hudson/Video-Editor-Auto

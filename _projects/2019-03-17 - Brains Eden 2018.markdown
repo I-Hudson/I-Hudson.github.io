@@ -22,13 +22,13 @@ EngineLanguage: Unreal Engine 4
 Project:
 - Games Jam
 
-thumb: BrainsEden2018/nootnuke.PNG
+thumb: BrainsEden2018/nootnuke.avif
 
 GithubLink:
 - https://github.com/I-Hudson/Noot-Nuke-Brains-Eden-2018
 
 TitleImgs:
-- BrainsEden2018/nootnuke.PNG
+- BrainsEden2018/nootnuke.avif
 TitleVideo:
 - 
 
@@ -54,7 +54,7 @@ When participating in this project many problems arose. Most of the problems whe
 
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bombblueprint">Bomb Spawn Blueprint</button>
 <div id="bombblueprint" class="collapse">
-<img src="/assets/img/project/BrainsEden2018/bombSpawnBP.PNG">
+<img src="/assets/img/project/BrainsEden2018/bombSpawnBP.avif">
 <center><i>Blueprint for the spawning of bombs</i></center>
 </div>
 
