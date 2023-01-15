@@ -6,7 +6,7 @@ author: Ian Hudson
 
 summary: OpenGL game engine made in C++.
 
-order: 1
+order: 4
 
 Tags:
 - C++
@@ -26,7 +26,7 @@ EngineLanguage: C++
 Project:
 - Individual project
 
-thumb: c++-opengl/title.avif
+thumb: c++-opengl/title.png
 
 GithubLink:
 - https://github.com/I-Hudson/Insight-Engine
