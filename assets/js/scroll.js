@@ -2,7 +2,7 @@
 
 $(document).ready( function() { 
     
-    $('a[href*=#]:not([href=#])').click(function() {
+    $('a[href^="#"]').click(function() {
         var target = $(this.hash);
         if(window.location.pathname != "/"){
             console.log(window.location.origin);

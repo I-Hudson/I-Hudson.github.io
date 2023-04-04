@@ -8,6 +8,10 @@
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
+    <script type="text/javascript" src=" {{ "/assets/js/jquery-3.6.4.min.js" | prepend: site.baseurl}}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/scroll.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/XRegExp.js" | prepend: site.baseurl }}"></script>    
+
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -15,11 +19,6 @@
     <link href="{{ "/style.css" | prepend: site.baseurl }}" rel="stylesheet">    
 
     <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-
-    <script type="text/javascript" src=" {{ "/assets/js/jquery-3.6.4.min.js" | prepend: site.baseurl}}"></script>
-    <script type="text/javascript" src="{{ "/assets/js/scroll.js" | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "/assets/js/XRegExp.js" | prepend: site.baseurl }}"></script>    
-
 
     <script type="text/javascript" src="{{ "/assets/js/shCore.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/assets/js/shBrushCpp.js" | prepend: site.baseurl }}"></script>  
