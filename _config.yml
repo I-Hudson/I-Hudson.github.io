@@ -5,7 +5,7 @@ title: Ian Hudson
 description: "My name is Ian Hudson and I am a Programmer at Sumo Digital Nottingham."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://ianmhudson.com/"
+url: "https://I-Hudson@github.io"
 
 homeImage: 
 
@@ -59,7 +59,3 @@ social:
     url: https://twitter.com/IanHudsonDev
   - title: linkedin
     url: https://www.linkedin.com/in/ian-hudson/
-
-# Contact email and phone number
-email: ianm.hud@gmail.com
-    

@@ -7,86 +7,13 @@
     </div>
     {% assign loopindex = 0 %}
     {% for project in site.projects %}
-    {% if project.type == "gameJam" %}
-        {% assign loopindex = loopindex | plus: 1 %}
-        {% assign rowfinder = loopindex | modulo: 3 %}
-        {% if rowfinder == 1 %}
-<div class="row top-buffer">
-                    <div class="center col-sm-6 col-md-6 col-lg-4">
-                        <a href="{{ project.url | prepend: site.baseurl }}">
-                            <div class="textContainerOverlay text-center">
-                                <div class="imgBoarder">
-                                    <img class="card-img-top" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
-                                    <div class="textBackground">
-                                        <div class="text-center">
-                                            <h3>{{ project.title }}</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="work-item-tags-container">
-                            {% for tag in project.Tags %}
-                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
-                                    <span>{{tag}}</span>
-                                </div>
-                            {% endfor %}
-                        </div>
-                        <p>{{ project.summary }}</p>
-                    </div>
-            {% elsif rowfinder == 0 %}
-                    <div class="center col-sm-6 col-md-6 col-lg-4">
-                        <a href="{{ project.url | prepend: site.baseurl }}">
-                            <div class="textContainerOverlay text-center">
-                                <div class="imgBoarder">
-                                    <img class="card-img-top" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
-                                    <div class="textBackground">
-                                        <div class="text-center">
-                                            <h3>{{ project.title }}</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="work-item-tags-container">
-                            {% for tag in project.Tags %}
-                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
-                                    <span>{{tag}}</span>
-                                </div>
-                            {% endfor %}
-                        </div>
-                        <p>{{ project.summary }}</p>
-                    </div>
-                </div>
-            {% else %}
-                    <div class="center col-sm-6 col-md-6 col-lg-4">
-                        <a href="{{ project.url | prepend: site.baseurl }}">
-                            <div class="textContainerOverlay text-center">
-                                <div class="imgBoarder">
-                                    <img class="card-img-top" src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.thumb }}" alt=""/>
-                                    <div class="textBackground">
-                                        <div class="text-center">
-                                            <h3>{{ project.title }}</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="work-item-tags-container">
-                            {% for tag in project.Tags %}
-                                <div class="itemTag" style="background-color: {{" site.Tags.tag "}}">
-                                    <span>{{tag}}</span>
-                                </div>
-                            {% endfor %}
-                        </div>
-                        <p>{{ project.summary }}</p>
-                    </div>
-        {% endif %}        
+        {% if project.type == "gameJam" %}
+            {% include portfolioTemplate.html %}  
         {% endif %}
-        {% endfor %}
-        {% if rowfinder != 0 %}
-            </div>
-        {% endif %}
+    {% endfor %}
+    {% if rowfinder != 0 %}
+        </div>
+    {% endif %}
     </div>
 </div>
 </div>
