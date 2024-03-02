@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "Unity"
+date:   2024-01-01 
+author: Ian Hudson
+
+summary: Unity Unannounced Package
+
+Tags:
+- C++
+- C#
+
+categories:
+- project, 
+
+Platform:
+- PC
+- Console
+
+type: professional
+
+EngineLanguage: Proprietary (C++/C#)
+
+Project:
+- Professional,
+
+GithubLink:
+
+thumb: 
+- Unity/White/RGB/U_Logo_White_RGB.svg
+
+TitleImgs:
+- Unity/White/RGB/U_Logo_White_RGB.svg
+
+TitleVideo:
+
+tagged: C++, Professional
+---
+
+# About 
+I worked on an unannounced package for the Unity game engine.
+
+## What I did
+I worked within a small team working on an unannounced package for the Unity game engine. In this role I was tasked with helping design a public API. This involved not only giving my opinion on what I believed to be the correct style for the API but also reviewing and collaborating with others over their ideas to find the best API for developers.
+
+I worked within C# for developing the package while having to access platform specific C++ code for research on how underlying API worked. This gave me a great insight into how others saw the platform C++ code should be abstracted for use within a public API.
+
+I was the first point of contract for a console platform within the team. This meant if there was any questions about my assigned platform it was my responsibility to give a clear and concise answer and when required to reach out to other members of the wide organisation. This meant that I was collaborating with a wide group of people from not only different teams but also locations.
+
+<i>If you have any question or suggests about this project or any other project please do not hesitate to contract me.<i/>
