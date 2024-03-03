@@ -64,5 +64,9 @@ While supporting Vulkan and DX12 has been a challenge it has been an enjoyable o
 ## Future
 While I am happy where the project is there is of course more to do. One of the next areas I am planning on working on is distribution. Currently the project is setup to use DLLs for each "module" (Core, Graphics, Input, etc). While this is nice for development; not needing to recompile the entire solution, this is not my preferred way to distribute a build. That would be to compile the project down into a single .exe.
 
+Current as an update to the previous paragraph I have been able to not only compile an Editor version of the engine which can load/unload worlds (scenes), render models with a deferred render setup using my render graph and allow for custom game code to be created within a DLL and hot reloaded into the main application (current example is using editor windows) but I can also build standalone applications which are compile as a single .exe. This allows for easier distribution as I don't have any engine code in other DLL as the engine is compiled into the standalone. 
+
+There is of course still much to be done, compute shader support for the render graph, complete implementation of in editor play mode, and many more editor features like undo/redo.
+
 <i>If you have any question or suggests about this project or any other project, please do not hesitate to contract me. This is an area in which I would like to learn more in.</i>
 
